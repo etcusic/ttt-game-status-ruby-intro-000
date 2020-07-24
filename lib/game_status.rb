@@ -24,9 +24,9 @@ def won?(board)
     value_3 = board[combo[2]]
 
     if value_1 == 'X' && value_2 == 'X' && value_3 == 'X'
-      winner = combo #.push(combo[0], combo[1], combo[2])
+      winner = combo
     elsif value_1 == 'O' && value_2 == 'O' && value_3 == 'O'
-      winner.push(combo[0], combo[1], combo[2])
+      winner = combo
     end
   end
 
