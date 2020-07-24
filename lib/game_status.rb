@@ -38,7 +38,7 @@ end
 # def won?(board)
 #   player_1 = [] # will accept each index number of board that == 'X'
 #   winning_combo = [] # will be pushed if winning combination of indeces is found in player_1
-# 
+#
 # #this method finds each 'X' in board array and pushes the index number to player_1
 #   counter = 0
 #   while counter < board.length
@@ -46,7 +46,7 @@ end
 #       player_1.push(counter)
 #     end
 #   end
-# 
+#
 #   return player_1
 # #this method goes through each WIN_COMBINATIONS array to see if all 3 match numbers in player_1. If yes => winning_combo.push
 #   # index = 0
