@@ -38,5 +38,5 @@ def won?(board)
 end
 
 def full?(board)
-  board.reject{|i| i == ' '}
+  board.none?{|i| i == ' '}
 end
